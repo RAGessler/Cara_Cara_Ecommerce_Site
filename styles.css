@@ -35,6 +35,7 @@ h1 {
     font-weight: 600;
     letter-spacing: 5px;
     font-size: 2.5rem;
+    padding-left: 10rem
 }
 
 .home-background {
@@ -97,9 +98,6 @@ h1 {
 
 
 
-li {
-    padding: 2rem;
-}
 .nav-list {
     display: inline-flex;
     font-size: 2rem;
@@ -116,13 +114,17 @@ li {
 
 .search-bar {
     float: right;
+    position: absolute;
+    right: 2rem;
+    vertical-align: text-bottom;
 }
 .cart {
     float: right;
 }
 
 li {
-    padding: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 .nav-list {
     display: inline-flex;
@@ -138,9 +140,11 @@ li {
     right: 1.5rem;
 }
 
-.search-bar {
-    float: right;
-}
 .cart {
     float: right;
+}
+
+.nav-a {
+    color: #070707;
+    text-decoration: none;
 }
