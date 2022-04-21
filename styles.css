@@ -9,6 +9,9 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; /* Make font-size 10px; 1rem=10px */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 50;
+    
 }
 
 img {
@@ -22,20 +25,17 @@ header {
 }
 
 .header-image {
-    height: 2rem;
-
+    height: 3rem;
+    box-sizing: unset;
+    padding-right: 4px;
 }
 
-
-
-
-
-
-
-
-
-
-
+h1 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+}
 
 .home-background {
     width: 100%;
