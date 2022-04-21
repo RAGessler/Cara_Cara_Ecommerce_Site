@@ -40,3 +40,83 @@ h1 {
 .home-background {
     width: 100%;
 }
+
+.header-image {
+    height: 3rem;
+    box-sizing: unset;
+    padding-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+    padding: 2rem;
+}
+.nav-list {
+    display: inline-flex;
+    font-size: 2rem;
+    padding: 2rem;
+    padding: 1rem;
+    padding-left: 1rem;
+    list-style-type: none;
+}
+.magnifying-glass {
+    height: 1rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+.search-bar {
+    float: right;
+}
+.cart {
+    float: right;
+}
