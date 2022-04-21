@@ -11,6 +11,10 @@ html {
     font-size: 62.5%; /* Make font-size 10px; 1rem=10px */
 }
 
+img {
+    max-width: 100%;
+}
+
 header {
     background-color: white;
     position: relative;
@@ -20,4 +24,19 @@ header {
 .header-image {
     height: 2rem;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.home-background {
+    width: 100%;
 }
