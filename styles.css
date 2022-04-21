@@ -38,5 +38,11 @@ h1 {
 }
 
 .home-background {
-    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.home-background::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(36deg, black, transparent);
 }
