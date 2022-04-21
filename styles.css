@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-}
+ }
 
 html {
     box-sizing: border-box;
@@ -147,4 +147,18 @@ li {
 .nav-a {
     color: #070707;
     text-decoration: none;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+    width: 100%;
+}
+
+hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
