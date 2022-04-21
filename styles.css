@@ -16,6 +16,9 @@ html {
 
 img {
     max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 header {
@@ -35,27 +38,127 @@ h1 {
     font-weight: 600;
     letter-spacing: 5px;
     font-size: 2.5rem;
+    padding-left: 10rem
 }
 
 .home-section{
-width: 100%; height: 500px;
+width: 1080px; height: 50em;
 background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
 background-size: cover;
 background-position: center;
 position: relative;
 }
-.home-section > h2 {
-    font-size: 5rem;
-    color: rgb(255, 255, 255);
+.top-left {
+color: white;
+font-size: 4rem;
+position: absolute;
+top: 8px;
+left: 16px;
+max-width: 25%;
+}
+.bottom-right {
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    bottom: 1em;
+    right: 0px;
+    max-width: 25%;
 }
 .gradient {
     
-    background-image: linear-gradient(to right, #000000 10%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 75%,#000000 90%);width: 100%;height: 100%;}
+    background-image: linear-gradient(to right, #000000 5%, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0) 80%,#000000 95%);width: 100%;height: 100%;}
     
 li {
     padding: 2rem;
 }
 
+.home-background {
+    width: 100%;
+}
+
+.header-image {
+    height: 3rem;
+    box-sizing: unset;
+    padding-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-list {
+    max-width: 1080px;
+    font-size: 2rem;
+    padding: 2rem;
+    padding: 1rem;
+    padding-left: 1rem;
+    list-style-type: none;
+}
+.magnifying-glass {
+    height: 1rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+.search-bar {
+    position: absolute;
+    right: 7rem;
+}
+.cart {
+position: absolute;
+right:5px ;
+}
+
+li {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
 .nav-list {
     display: inline-flex;
     font-size: 2rem;
@@ -70,9 +173,15 @@ li {
     right: 1.5rem;
 }
 
-.search-bar {
-    float: right;
-}
 .cart {
     float: right;
+}
+
+.nav-a {
+    color: #070707;
+    text-decoration: none;
+}
+.nav-b {
+    position: absolute;
+right: 5px;
 }
