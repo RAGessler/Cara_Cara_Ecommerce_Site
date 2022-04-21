@@ -10,3 +10,14 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; /* Make font-size 10px; 1rem=10px */
 }
+
+header {
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+}
+
+.header-image {
+    height: 2rem;
+
+}
