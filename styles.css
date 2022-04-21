@@ -120,3 +120,27 @@ li {
 .cart {
     float: right;
 }
+
+li {
+    padding: 2rem;
+}
+.nav-list {
+    display: inline-flex;
+    font-size: 2rem;
+    padding: 2rem;
+    padding: 1rem;
+    padding-left: 1rem;
+    list-style-type: none;
+}
+.magnifying-glass {
+    height: 1rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+.search-bar {
+    float: right;
+}
+.cart {
+    float: right;
+}
