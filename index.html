@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <h1>Cara Cara</h1>
-        <div><img src="./assets/icons8-pottery-96.png" alt="Orange Vase"></div>
+        <h1>Cara<img src="./assets/icons8-pottery-96.png" alt="Orange Vase">Cara</h1>
         <nav>
             <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#AboutUs">About</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#AboutUs">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>  
         </nav>
-        <input type="text">
-        <h3>Cart(0)</h3>
+        <div>
+            <input type="text"><img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="Search Button">
+        </div>
+        <p>Cart(0)</p>
     </header>
     <main>
-        <div class="home" id="home">
+        <div class="home-section" id="home">
             <div>Ceramics Crafted By Hand...</div>
             <div>
                 <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Hands making a pot.">
             </div>
             <div>...From The Ground Up</div>
         </div>
-        <div class="about us" id="AboutUs">
+        <div class="about-section" id="AboutUs">
             <h2>About Us</h2>
             <div class="paragraph1">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis sed eligendi quis accusamus dicta, corrupti repudiandae vitae tenetur consequuntur recusandae. Mollitia libero, provident itaque officia vero quas aliquid distinctio ab.</p>
@@ -48,15 +50,15 @@
             </div>
         </div>
         <!-- Products List -->
-        <div class="Our products" id="products">
+        <div class="products-section" id="products">
             <h2>Our Products</h2>
             <!-- Card -->
                 <div class="card">
-                    <a href="#">
-                        <div>
+                    <div>
+                        <a href="#">
                             <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Three White Bowls">
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                     <h3>MUNDO BOWLS</h3>
                     <div>$40.00</div>
                     <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia sed et id neque natus sit cupiditate aperiam tempore ipsam consequuntur impedit corrupti debitis facere magnam, non nemo asperiores accusamus?</p></div>
@@ -183,6 +185,7 @@
                 Message: <input type="text"> <br>
                 <button>Send</button>
             </form>
+        </div>
     </main>
     <footer>
         <h2>CARA CARA</h2>
